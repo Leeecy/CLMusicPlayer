@@ -33,7 +33,10 @@
 		049B645F1CFDB06D00422A5E /* 音乐_播放器_默认模糊背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B64531CFDB06D00422A5E /* 音乐_播放器_默认模糊背景@2x.png */; };
 		049B64611CFDB0F400422A5E /* musicPaper.json in Resources */ = {isa = PBXBuildFile; fileRef = 049B64601CFDB0F400422A5E /* musicPaper.json */; };
 		049B64651CFDB13A00422A5E /* MusicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B64641CFDB13A00422A5E /* MusicsViewController.m */; };
+		04C272161CFEBA4400810E70 /* AudioPlayerController+methods.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C272151CFEBA4400810E70 /* AudioPlayerController+methods.m */; };
 		61935C3F429FEBF4F95CCCFB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF6B7E30FC5B25A30F2D086 /* libPods.a */; };
+		C4F0F2E91CFDCFC400824305 /* AudioPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F0F2E71CFDCFC400824305 /* AudioPlayerController.m */; };
+		C4F0F2EA1CFDCFC400824305 /* AudioPlayerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F0F2E81CFDCFC400824305 /* AudioPlayerController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,9 +97,14 @@
 		049B64601CFDB0F400422A5E /* musicPaper.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = musicPaper.json; sourceTree = "<group>"; };
 		049B64631CFDB13A00422A5E /* MusicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicsViewController.h; sourceTree = "<group>"; };
 		049B64641CFDB13A00422A5E /* MusicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicsViewController.m; sourceTree = "<group>"; };
+		04C272141CFEBA4400810E70 /* AudioPlayerController+methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AudioPlayerController+methods.h"; sourceTree = "<group>"; };
+		04C272151CFEBA4400810E70 /* AudioPlayerController+methods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AudioPlayerController+methods.m"; sourceTree = "<group>"; };
 		177C96DBD88141A3056831C3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5DF6B7E30FC5B25A30F2D086 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		76421E05BC60A73C27A4E496 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C4F0F2E61CFDCFC400824305 /* AudioPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerController.h; sourceTree = "<group>"; };
+		C4F0F2E71CFDCFC400824305 /* AudioPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerController.m; sourceTree = "<group>"; };
+		C4F0F2E81CFDCFC400824305 /* AudioPlayerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioPlayerController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +249,11 @@
 			children = (
 				049B64631CFDB13A00422A5E /* MusicsViewController.h */,
 				049B64641CFDB13A00422A5E /* MusicsViewController.m */,
+				C4F0F2E61CFDCFC400824305 /* AudioPlayerController.h */,
+				C4F0F2E71CFDCFC400824305 /* AudioPlayerController.m */,
+				C4F0F2E81CFDCFC400824305 /* AudioPlayerController.xib */,
+				04C272141CFEBA4400810E70 /* AudioPlayerController+methods.h */,
+				04C272151CFEBA4400810E70 /* AudioPlayerController+methods.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -368,6 +381,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F0F2EA1CFDCFC400824305 /* AudioPlayerController.xib in Resources */,
 				049B64611CFDB0F400422A5E /* musicPaper.json in Resources */,
 				049B645F1CFDB06D00422A5E /* 音乐_播放器_默认模糊背景@2x.png in Resources */,
 				049B64541CFDB06D00422A5E /* MusicPlayer_上一个@2x.png in Resources */,
@@ -460,9 +474,11 @@
 				049B643B1CFDAE9900422A5E /* TabBarController.m in Sources */,
 				049B64461CFDB05400422A5E /* UIImage+ImageEffects.m in Sources */,
 				049B643F1CFDAF5100422A5E /* MusicModel.m in Sources */,
+				C4F0F2E91CFDCFC400824305 /* AudioPlayerController.m in Sources */,
 				049B64651CFDB13A00422A5E /* MusicsViewController.m in Sources */,
 				049B640A1CFDAAD200422A5E /* AppDelegate.m in Sources */,
 				049B64451CFDB05400422A5E /* NSString+time.m in Sources */,
+				04C272161CFEBA4400810E70 /* AudioPlayerController+methods.m in Sources */,
 				049B64071CFDAAD200422A5E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

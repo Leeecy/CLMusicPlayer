@@ -26,7 +26,7 @@
 #pragma mark -
 #pragma mark 初始化UI
 -(void)confgiUI{
-    NSLog(@"111");
+    
 }
 #pragma mark -
 #pragma mark 加载数据

@@ -8,6 +8,7 @@
 
 #import "MusicsViewController.h"
 #import "MusicModel.h"
+#import "AudioPlayerController.h"
 @interface MusicsViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *songTableView;
 @property (nonatomic, strong) NSMutableArray *songArray;
@@ -86,6 +87,14 @@ static NSString *songIdentifier = @"songCellIdentifier";
     cell.textLabel.text = [NSString stringWithFormat:@"%@_%@_%@", model.music_id, model.name, model.singer];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    AudioPlayerController *audio = [AudioPlayerController audioPlayerController];
+    [audio initWithArray:_songArray index:indexPath.row];
+    [self presentViewController:audio animated:YES completion:nil];
+    
 }
 #pragma mark 业务逻辑
 
