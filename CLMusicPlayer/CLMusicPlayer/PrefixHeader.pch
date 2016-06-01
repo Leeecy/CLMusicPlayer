@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  CLMusicPlayer
+//
+//  Created by mac on 16/5/31.
+//  Copyright © 2016年 sunsmart. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <UIImageView+WebCache.h>
+#import <MBProgressHUD.h>
+#define KScreenWidth [UIScreen mainScreen].bounds.size.width
+#define KScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+/* 数值变量 */
+#define TableViewRowHeight 60.0f // tableView RowHight
+
+/* 坐标变量 */
+#define Frame_x_0  0.0f // 坐标 -> x
+#define Frame_y_0  0.0f //
+#endif /* PrefixHeader_pch */

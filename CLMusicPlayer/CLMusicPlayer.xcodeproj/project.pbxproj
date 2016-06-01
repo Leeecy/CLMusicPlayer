@@ -15,6 +15,24 @@
 		049B64151CFDAAD200422A5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049B64131CFDAAD200422A5E /* LaunchScreen.storyboard */; };
 		049B64201CFDAAD200422A5E /* CLMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B641F1CFDAAD200422A5E /* CLMusicPlayerTests.m */; };
 		049B642B1CFDAAD200422A5E /* CLMusicPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B642A1CFDAAD200422A5E /* CLMusicPlayerUITests.m */; };
+		049B643B1CFDAE9900422A5E /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B643A1CFDAE9900422A5E /* TabBarController.m */; };
+		049B643F1CFDAF5100422A5E /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B643E1CFDAF5100422A5E /* MusicModel.m */; };
+		049B64451CFDB05400422A5E /* NSString+time.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B64421CFDB05400422A5E /* NSString+time.m */; };
+		049B64461CFDB05400422A5E /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B64441CFDB05400422A5E /* UIImage+ImageEffects.m */; };
+		049B64541CFDB06D00422A5E /* MusicPlayer_上一个@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B64481CFDB06D00422A5E /* MusicPlayer_上一个@2x.png */; };
+		049B64551CFDB06D00422A5E /* MusicPlayer_下一个@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B64491CFDB06D00422A5E /* MusicPlayer_下一个@2x.png */; };
+		049B64561CFDB06D00422A5E /* MusicPlayer_下载@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B644A1CFDB06D00422A5E /* MusicPlayer_下载@2x.png */; };
+		049B64571CFDB06D00422A5E /* MusicPlayer_单曲循环@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B644B1CFDB06D00422A5E /* MusicPlayer_单曲循环@2x.png */; };
+		049B64581CFDB06D00422A5E /* MusicPlayer_后退@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B644C1CFDB06D00422A5E /* MusicPlayer_后退@2x.png */; };
+		049B64591CFDB06D00422A5E /* MusicPlayer_播放@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B644D1CFDB06D00422A5E /* MusicPlayer_播放@2x.png */; };
+		049B645A1CFDB06D00422A5E /* MusicPlayer_暂停@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B644E1CFDB06D00422A5E /* MusicPlayer_暂停@2x.png */; };
+		049B645B1CFDB06D00422A5E /* MusicPlayer_随机播放@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B644F1CFDB06D00422A5E /* MusicPlayer_随机播放@2x.png */; };
+		049B645C1CFDB06D00422A5E /* MusicPlayer_顺序播放@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B64501CFDB06D00422A5E /* MusicPlayer_顺序播放@2x.png */; };
+		049B645D1CFDB06D00422A5E /* Slider_控制点@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B64511CFDB06D00422A5E /* Slider_控制点@2x.png */; };
+		049B645E1CFDB06D00422A5E /* 音乐_播放器_默认唱片头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B64521CFDB06D00422A5E /* 音乐_播放器_默认唱片头像@2x.png */; };
+		049B645F1CFDB06D00422A5E /* 音乐_播放器_默认模糊背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B64531CFDB06D00422A5E /* 音乐_播放器_默认模糊背景@2x.png */; };
+		049B64611CFDB0F400422A5E /* musicPaper.json in Resources */ = {isa = PBXBuildFile; fileRef = 049B64601CFDB0F400422A5E /* musicPaper.json */; };
+		049B64651CFDB13A00422A5E /* MusicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B64641CFDB13A00422A5E /* MusicsViewController.m */; };
 		61935C3F429FEBF4F95CCCFB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF6B7E30FC5B25A30F2D086 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +70,30 @@
 		049B64261CFDAAD200422A5E /* CLMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049B642A1CFDAAD200422A5E /* CLMusicPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLMusicPlayerUITests.m; sourceTree = "<group>"; };
 		049B642C1CFDAAD200422A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049B64381CFDADA900422A5E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		049B64391CFDAE9900422A5E /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		049B643A1CFDAE9900422A5E /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		049B643D1CFDAF5100422A5E /* MusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicModel.h; sourceTree = "<group>"; };
+		049B643E1CFDAF5100422A5E /* MusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
+		049B64411CFDB05400422A5E /* NSString+time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+time.h"; sourceTree = "<group>"; };
+		049B64421CFDB05400422A5E /* NSString+time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+time.m"; sourceTree = "<group>"; };
+		049B64431CFDB05400422A5E /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		049B64441CFDB05400422A5E /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		049B64481CFDB06D00422A5E /* MusicPlayer_上一个@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MusicPlayer_上一个@2x.png"; sourceTree = "<group>"; };
+		049B64491CFDB06D00422A5E /* MusicPlayer_下一个@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MusicPlayer_下一个@2x.png"; sourceTree = "<group>"; };
+		049B644A1CFDB06D00422A5E /* MusicPlayer_下载@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MusicPlayer_下载@2x.png"; sourceTree = "<group>"; };
+		049B644B1CFDB06D00422A5E /* MusicPlayer_单曲循环@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MusicPlayer_单曲循环@2x.png"; sourceTree = "<group>"; };
+		049B644C1CFDB06D00422A5E /* MusicPlayer_后退@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MusicPlayer_后退@2x.png"; sourceTree = "<group>"; };
+		049B644D1CFDB06D00422A5E /* MusicPlayer_播放@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MusicPlayer_播放@2x.png"; sourceTree = "<group>"; };
+		049B644E1CFDB06D00422A5E /* MusicPlayer_暂停@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MusicPlayer_暂停@2x.png"; sourceTree = "<group>"; };
+		049B644F1CFDB06D00422A5E /* MusicPlayer_随机播放@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MusicPlayer_随机播放@2x.png"; sourceTree = "<group>"; };
+		049B64501CFDB06D00422A5E /* MusicPlayer_顺序播放@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MusicPlayer_顺序播放@2x.png"; sourceTree = "<group>"; };
+		049B64511CFDB06D00422A5E /* Slider_控制点@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slider_控制点@2x.png"; sourceTree = "<group>"; };
+		049B64521CFDB06D00422A5E /* 音乐_播放器_默认唱片头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音乐_播放器_默认唱片头像@2x.png"; sourceTree = "<group>"; };
+		049B64531CFDB06D00422A5E /* 音乐_播放器_默认模糊背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音乐_播放器_默认模糊背景@2x.png"; sourceTree = "<group>"; };
+		049B64601CFDB0F400422A5E /* musicPaper.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = musicPaper.json; sourceTree = "<group>"; };
+		049B64631CFDB13A00422A5E /* MusicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicsViewController.h; sourceTree = "<group>"; };
+		049B64641CFDB13A00422A5E /* MusicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicsViewController.m; sourceTree = "<group>"; };
 		177C96DBD88141A3056831C3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5DF6B7E30FC5B25A30F2D086 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		76421E05BC60A73C27A4E496 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +150,10 @@
 		049B64041CFDAAD200422A5E /* CLMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				049B64621CFDB12300422A5E /* ViewController */,
+				049B64471CFDB06D00422A5E /* Image */,
+				049B64401CFDB05400422A5E /* Tools */,
+				049B643C1CFDAF5100422A5E /* Model */,
 				049B64081CFDAAD200422A5E /* AppDelegate.h */,
 				049B64091CFDAAD200422A5E /* AppDelegate.m */,
 				049B640B1CFDAAD200422A5E /* ViewController.h */,
@@ -117,6 +163,8 @@
 				049B64131CFDAAD200422A5E /* LaunchScreen.storyboard */,
 				049B64161CFDAAD200422A5E /* Info.plist */,
 				049B64051CFDAAD200422A5E /* Supporting Files */,
+				049B64391CFDAE9900422A5E /* TabBarController.h */,
+				049B643A1CFDAE9900422A5E /* TabBarController.m */,
 			);
 			path = CLMusicPlayer;
 			sourceTree = "<group>";
@@ -124,7 +172,9 @@
 		049B64051CFDAAD200422A5E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				049B64601CFDB0F400422A5E /* musicPaper.json */,
 				049B64061CFDAAD200422A5E /* main.m */,
+				049B64381CFDADA900422A5E /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -145,6 +195,54 @@
 				049B642C1CFDAAD200422A5E /* Info.plist */,
 			);
 			path = CLMusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+		049B643C1CFDAF5100422A5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				049B643D1CFDAF5100422A5E /* MusicModel.h */,
+				049B643E1CFDAF5100422A5E /* MusicModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049B64401CFDB05400422A5E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				049B64411CFDB05400422A5E /* NSString+time.h */,
+				049B64421CFDB05400422A5E /* NSString+time.m */,
+				049B64431CFDB05400422A5E /* UIImage+ImageEffects.h */,
+				049B64441CFDB05400422A5E /* UIImage+ImageEffects.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		049B64471CFDB06D00422A5E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				049B64481CFDB06D00422A5E /* MusicPlayer_上一个@2x.png */,
+				049B64491CFDB06D00422A5E /* MusicPlayer_下一个@2x.png */,
+				049B644A1CFDB06D00422A5E /* MusicPlayer_下载@2x.png */,
+				049B644B1CFDB06D00422A5E /* MusicPlayer_单曲循环@2x.png */,
+				049B644C1CFDB06D00422A5E /* MusicPlayer_后退@2x.png */,
+				049B644D1CFDB06D00422A5E /* MusicPlayer_播放@2x.png */,
+				049B644E1CFDB06D00422A5E /* MusicPlayer_暂停@2x.png */,
+				049B644F1CFDB06D00422A5E /* MusicPlayer_随机播放@2x.png */,
+				049B64501CFDB06D00422A5E /* MusicPlayer_顺序播放@2x.png */,
+				049B64511CFDB06D00422A5E /* Slider_控制点@2x.png */,
+				049B64521CFDB06D00422A5E /* 音乐_播放器_默认唱片头像@2x.png */,
+				049B64531CFDB06D00422A5E /* 音乐_播放器_默认模糊背景@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		049B64621CFDB12300422A5E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				049B64631CFDB13A00422A5E /* MusicsViewController.h */,
+				049B64641CFDB13A00422A5E /* MusicsViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		1DD1E940BF4CCD0FA32A9308 /* Pods */ = {
@@ -270,8 +368,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049B64611CFDB0F400422A5E /* musicPaper.json in Resources */,
+				049B645F1CFDB06D00422A5E /* 音乐_播放器_默认模糊背景@2x.png in Resources */,
+				049B64541CFDB06D00422A5E /* MusicPlayer_上一个@2x.png in Resources */,
+				049B645A1CFDB06D00422A5E /* MusicPlayer_暂停@2x.png in Resources */,
+				049B64561CFDB06D00422A5E /* MusicPlayer_下载@2x.png in Resources */,
+				049B64591CFDB06D00422A5E /* MusicPlayer_播放@2x.png in Resources */,
 				049B64151CFDAAD200422A5E /* LaunchScreen.storyboard in Resources */,
+				049B64551CFDB06D00422A5E /* MusicPlayer_下一个@2x.png in Resources */,
 				049B64121CFDAAD200422A5E /* Assets.xcassets in Resources */,
+				049B64581CFDB06D00422A5E /* MusicPlayer_后退@2x.png in Resources */,
+				049B645E1CFDB06D00422A5E /* 音乐_播放器_默认唱片头像@2x.png in Resources */,
+				049B645B1CFDB06D00422A5E /* MusicPlayer_随机播放@2x.png in Resources */,
+				049B645C1CFDB06D00422A5E /* MusicPlayer_顺序播放@2x.png in Resources */,
+				049B64571CFDB06D00422A5E /* MusicPlayer_单曲循环@2x.png in Resources */,
+				049B645D1CFDB06D00422A5E /* Slider_控制点@2x.png in Resources */,
 				049B64101CFDAAD200422A5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,7 +457,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				049B640D1CFDAAD200422A5E /* ViewController.m in Sources */,
+				049B643B1CFDAE9900422A5E /* TabBarController.m in Sources */,
+				049B64461CFDB05400422A5E /* UIImage+ImageEffects.m in Sources */,
+				049B643F1CFDAF5100422A5E /* MusicModel.m in Sources */,
+				049B64651CFDB13A00422A5E /* MusicsViewController.m in Sources */,
 				049B640A1CFDAAD200422A5E /* AppDelegate.m in Sources */,
+				049B64451CFDB05400422A5E /* NSString+time.m in Sources */,
 				049B64071CFDAAD200422A5E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +603,7 @@
 			baseConfigurationReference = 177C96DBD88141A3056831C3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CLMusicPlayer/PrefixHeader.pch";
 				INFOPLIST_FILE = CLMusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.sunsmart.CLMusicPlayer;
@@ -499,6 +616,7 @@
 			baseConfigurationReference = 76421E05BC60A73C27A4E496 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CLMusicPlayer/PrefixHeader.pch";
 				INFOPLIST_FILE = CLMusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.sunsmart.CLMusicPlayer;
